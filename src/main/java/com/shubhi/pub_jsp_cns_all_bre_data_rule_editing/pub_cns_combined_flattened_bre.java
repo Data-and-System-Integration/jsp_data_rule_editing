@@ -1749,7 +1749,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.math.BigDecimal data_brand_dim__level_2;
 	private java.math.BigDecimal data_brand_dim__level_1;
 	private java.math.BigDecimal data_brand_dim__level_0;
-	private java.math.BigDecimal data_brand;
+	private Double data_brand;
 	private java.math.BigDecimal data_blocking_type;
 	private java.lang.String string_panelist_user_defined_multi_count;
 	private java.lang.String string_panelist_multi_choice_codes_25;
@@ -13803,12 +13803,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 			java.math.BigDecimal data_brand_dim__level_0) {
 		this.data_brand_dim__level_0 = data_brand_dim__level_0;
 	}
-	public java.math.BigDecimal getData_brand() {
-		return data_brand;
-	}
-	public void setData_brand(java.math.BigDecimal data_brand) {
-		this.data_brand = data_brand;
-	}
 	public java.math.BigDecimal getData_blocking_type() {
 		return data_blocking_type;
 	}
@@ -14751,6 +14745,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	}
 	public void setData_outlet(java.lang.Long data_outlet) {
 		this.data_outlet = data_outlet;
+	}
+	public java.lang.Double getData_brand() {
+		return this.data_brand;
+	}
+	public void setData_brand(java.lang.Double data_brand) {
+		this.data_brand = data_brand;
 	}
 
 }
